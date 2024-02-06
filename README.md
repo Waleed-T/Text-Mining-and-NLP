@@ -14,7 +14,7 @@ Our tasks: “Do. Or do not. There is no try.” — Yoda
 9. Discover the most repeated words and the most relevant words in The Original Trilogy script. Remember: Bag of Words just creates a set of vectors containing the count of word occurrences in the document, while the TF-IDF model contains information on the more important words and the less important ones as well.
 10. Perform a sentiment analysis on the movie script. In python, sentiment analysis libraries for quick solutions are rare while in R, there are many such libraries. Check out ttps://pypi.org/project/sentic/ which provides a solution compatible with Python (or any other library we prefer). In Python we will find that the most common way to perform sentiment analysis is done by means of a Naïve Bayes Classifier, where we build the model (but we are not necessarily required to build one, we choose the way we want to do it). In the Star Wars universe, the Sith (like Darth Vader or Emperor Palpatine) are associated with negative feelings such as anger, fear, hate, etc. Conversely, the Jedi (like Luke Skywalker or Yoda) teach its followers to not give in to feelings of anger toward other lifeforms, which would help them resist fear and prevent them from falling to the Dark Side of the Force. According to our sentiment analysis done previously, do we notice differences between the Dark Side characters and the Light Side characters? Explain our insights!
 
-Libraries and Tutorial Articles:
+## Libraries and Tutorial Articles:
 
 • scikit-learn (a Python library that features various classification, regression, and clustering algorithms)
 https://scikit- learn.org/stable/
